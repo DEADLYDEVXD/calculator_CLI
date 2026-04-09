@@ -8,7 +8,10 @@ using namespace std;
 int main(){
     fast;
     // here i implimented a simple calculator that can perform basic arithmetifc operations
-
+    cout << "Hello User thanks for using my first ever CLI " << "\n";
+    cout << "You can type to use the calculator" << "\n";
+    cout << "Commands: add, subtract, multiply, divide, exit" << "\n";
+    cout << "Please enter exit to stop the calculator" << "\n";
     while(true){
         // CLI input 
         string cmd;
